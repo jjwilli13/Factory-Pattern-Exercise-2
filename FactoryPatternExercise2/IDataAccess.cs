@@ -1,13 +1,15 @@
 ﻿using System;
+using System.Collections.Generic;
+
 namespace FactoryPatternExercise2
 {
     public interface IDataAccess
     {
 
-        void LoadData();
+        public List<Product> LoadData();
         void SaveData();
 
         
     }
-}
+}   
 

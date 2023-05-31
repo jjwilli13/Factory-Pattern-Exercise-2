@@ -1,14 +1,17 @@
 ﻿using System;
+using System.Collections.Generic;
+
+
 namespace FactoryPatternExercise2
 {
     public class Product
-    {
-        public Product()
-        {
-        }
+    { 
 
         public string Name { get; set; }
-        public int Price { get; set; }
+        public decimal Price { get; set; }
+
+
+
     }
 }
 
